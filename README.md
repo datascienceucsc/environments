@@ -4,5 +4,5 @@ Starter conda environment files for easy and lightweight data science environmen
 
 ## Use
 
-If reproducibility is a big concern, I recommend using instead Docker with our
+If reproducibility is a big concern, we recommend using instead Docker with our
 [docker images](https://github.com/datascienceucsc/dockerfiles) as a starting point.
