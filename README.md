@@ -2,7 +2,6 @@
 
 Starter conda environment files for easy and lightweight data science environment setup
 
-
 If reproducibility is a big concern, we recommend using instead Docker with our
 [docker images](https://github.com/datascienceucsc/dockerfiles) as a starting point.
 
@@ -10,12 +9,15 @@ If reproducibility is a big concern, we recommend using instead Docker with our
 
 | name | description | 
 | --- | --- |
-| [base-data-science]() | Basic data science environment, with Jupyter Lab, `scikit-learn`, `pandas`, `seaborn` and standard software engineering utilities |
+| [base-data-science](https://github.com/datascienceucsc/environments/blob/main/base-data-science/environment.yml) | Basic data science environment, with Jupyter Lab, `scikit-learn`, `pandas`, `seaborn` and standard software engineering utilities |
+| [advanced-machine-learning](https://github.com/datascienceucsc/environments/blob/main/advanced_machine-learning/environment.yml)| Same a `base-data-science`, with the addition of 
+more models, automation and diagnostic tools:
+`xgboost`, `optuna`, `yellowbrick` and `snakemake` |
 
 ## Requirements
 
 We recommend using [miniconda 3](https://docs.conda.io/en/latest/miniconda.html) instead of the full Anaconda 3 distribution
-
+git 
 - `conda` 3
 
 ## Use
@@ -29,10 +31,6 @@ Go to the folder of the desired environment file, run
 ```sh 
 conda env create -f environment.yml
 ```
-
-### Installing all environmnents
-
-TODO
 
 ### Activating an installed environment
 
