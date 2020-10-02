@@ -10,13 +10,7 @@ If reproducibility is a big concern, we recommend using instead Docker with our
 | name | description | 
 | --- | --- |
 | [base-data-science](https://github.com/datascienceucsc/environments/blob/main/base-data-science/environment.yml) | Basic data science environment, with Jupyter Lab, `scikit-learn`, `pandas`, `seaborn` and standard software engineering utilities |
-| [advanced-machine-learning](https://github.com/datascienceucsc/environments/blob/main/advanced_machine-learning/environment.yml)| Same a `base-data-science`, with the addition of 
-<<<<<<< HEAD
-more models, automation and diagnostic tools:
-=======
-more models, automation and diagnostic tools
->>>>>>> 7c3887050b50e53fb2b17545d324cfa84d03136e
-`xgboost`, `optuna`, `yellowbrick` and `snakemake` |
+| [advanced-machine-learning](https://github.com/datascienceucsc/environments/blob/main/advanced-machine-learning/environment.yml)| Same a `base-data-science`, with the addition of more models, automation and diagnostic tools:`xgboost`, `optuna`, `yellowbrick` and `snakemake` |
 
 ## Requirements
 
