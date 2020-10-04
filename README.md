@@ -45,7 +45,7 @@ jupyter lab
 
 ### Using one of these envrionments as a basis for another
 
-Install the desired environment. 
+Install the desired environment. Then,
 ```sh
 conda create --name NEW_ENVIRONMENT --clone OLD_ENVIRONMENT
 ```
