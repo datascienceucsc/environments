@@ -14,9 +14,8 @@ If reproducibility is a big concern, we recommend using instead Docker with our
 
 ## Requirements
 
-We recommend using [miniconda 3](https://docs.conda.io/en/latest/miniconda.html) instead of the full Anaconda 3 distribution
-git 
 - `conda` 3
+We recommend using [miniconda 3](https://docs.conda.io/en/latest/miniconda.html) instead of the full Anaconda 3 distribution
 
 ## Use
 
