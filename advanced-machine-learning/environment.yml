@@ -17,6 +17,6 @@ dependencies:
   - cookiecutter=1.7.2
   - pytest=6.1.0
   - snakemake=5.25
-  - xgboost=1.2.0
+  - py-xgboost=0.90
   - yellowbrick=1.1
   - optuna=2.1.0
